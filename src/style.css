@@ -20,7 +20,8 @@ body {
     width: 100%;
     align-items: center;
     gap: 80px;
-    justify-content: end;
+    justify-content: space-evenly;
+    
 }
 
 .logo {
@@ -42,4 +43,14 @@ body {
     width: 300px;
     padding: 50px;
     align-items: start;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    
 }
