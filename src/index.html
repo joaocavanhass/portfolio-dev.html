@@ -3,35 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>portfolio</title>
 </head>
 <body>
-    <div class="header">
-        <h1 class="logo">DEV</h1>
-        <div class="header-info"> 
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Lab</a>
+    <header>
+            <div class="w-100% px-12 py-5 flex justify-between bg-red-600">
+                <h1 class="font-bold text-2xl">DEV</h1>
+            <div class="flex gap-12">
+                <a href="" class="hover:text-yellow-400 font-semibold">About</a>
+                <a href="" class="hover:text-yellow-400 font-semibold">Work</a>
+                <a href="" class="hover:text-yellow-400 font-semibold">Contact</a>
+            </div>    
+            </div>
         </div>
-    </div>
-    <main> 
-    <div class="main-info">
-        <div class="info">
-        <h1>Portfolio 
-            Front-End</h1>
-            <a href="" class="nome">Meu nome é João Pedro, e este é meu portfolio</a>
-            <h4 class="text">Tenho 19 anos, atualmente estou fazendo curso de criação de página, e
-                ja me matriculei no senac para ADS</h4>
+    </header>
+    <main class="bg-yellow-400 flex justify-around w-100%">
+        <div class=" flex flex-col py-14 pl-12 gap-6">
+            <h4 class="font-semibold text-lg">Portfolio</h4>
+            <h1 class="text-5xl font-bold">Front-End</h1>
+            <p class="">Meu nome é João Cavanhas e este é meu <a href="https://www.figma.com/design/pQyK27YAFebngw8OG9wjGO/Portfolio-template---Edit-this-portfolio-and-export-it-as-HTML---Get-your-portflio-live-in-no-time-(Community)?node-id=701-1063&node-type=frame&t=bywa31UcBhgetzZR-0" class="hover:text-red-600">Portfolio</a></p>
+            <button class="w-211 h-78 border-4 border-black text-white bg-black">Contact</button>
         </div>
-        <div class="image">
-             <img src="../src/images/Captura de tela 2024-11-06 205009.png" alt="">
+        <div class="flex items-end">
+            <img src="/src/images/Captura de tela 2024-11-06 205009.png" alt="">
         </div>
-    </div>
-    <div class="button">
-        <button class="more">oi</button>
-        <button class="more-2">oi</button>
-    </div>  
     </main>
 </body>
 </html>

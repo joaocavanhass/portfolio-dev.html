@@ -1,5 +1,9 @@
 @import url('/src/styles/global.css');
 
+main {
+    width: 100vh;
+}
+
 body {
     color: yellow;
     background-color: var(--cor-secundaria);
@@ -43,6 +47,7 @@ body {
     width: 300px;
     padding: 50px;
     align-items: start;
+    border-radius: 100%;
 }
 
 .info {
